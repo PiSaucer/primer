@@ -11,13 +11,20 @@
   </head>
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
-      {% if site.title and site.title != page.title %}
-      <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
-      {% endif %}
+      
+      <div class="MainHeader">
+            <div style="justify-content: flex-start;">
+                <h1 style="border-bottom: 0px solid rgba(0, 0, 0,0);" class="no-anchor"><a href="{{ "/" | absolute_url }}">{{ site.title }}</a>
+                </h1>
+            </div>
+        </div>
+        <br>
       
       {% include breadcrumbs.html %}
 
-      {{ content }}
+      <div id="markdown-content">
+          {{ content | inject_anchors }}
+      </div>
 
       {% if site.github.private != true and site.github.license %}
       <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
