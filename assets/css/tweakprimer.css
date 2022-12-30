@@ -57,6 +57,10 @@ td {
     vertical-align: top;
 }
 
+#breadcrumbs {
+  margin-bottom: 20px;
+}
+
 .breadcrumb {
     display: flex;
     flex-wrap: wrap;
