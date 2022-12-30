@@ -7,6 +7,23 @@ sass:
 
 theme: jekyll-theme-primer
 
+plugins:
+  - jekyll-readme-index
+  - jekyll-pdf-embed
+  - jekyll-sitemap
+  - jekyll-youtube
+  
+permalink: /:title/
+readme_index:
+  enabled: true
+  with_frontmatter: true
+
+kramdown:
+  highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
 github:
   private: false
   license:
