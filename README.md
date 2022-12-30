@@ -13,7 +13,7 @@ To use the Tweak Primer theme:
 1. Add the following to your site's `_config.yml`:
 
     ```yml
-    remote_theme: pisaucer/tweakprimer@v0.0.1
+    remote_theme: https://github.com/pisaucer/tweakprimer
     plugins:
     - jekyll-remote-theme # add this line to the plugins list if you already have one
     ```
