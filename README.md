@@ -1,19 +1,19 @@
-# The Primer theme
+# The Tweak Primer Theme
 
-[![.github/workflows/ci.yaml](https://github.com/pages-themes/primer/actions/workflows/ci.yaml/badge.svg)](https://github.com/pages-themes/primer/actions/workflows/ci.yaml) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-primer.svg)](https://badge.fury.io/rb/jekyll-theme-primer)
+[![.github/workflows/ci.yaml](https://github.com/pages-themes/primer/actions/workflows/ci.yaml/badge.svg)](https://github.com/pages-themes/primer/actions/workflows/ci.yaml) [![Gem Version](https://badge.fury.io/gh/pisaucer%2Ftweakprimer.svg)](https://badge.fury.io/gh/pisaucer%2Ftweakprimer)
 
-*Primer is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](http://pages-themes.github.io/primer), or even [use it today](#usage).*
+*Primer is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](https://pisaucer.github.io/tweakprimer/), or even [use it today](#usage).*
 
-![Thumbnail of Primer](thumbnail.png)
+<!-- ![Thumbnail of Primer](thumbnail.png) -->
 
 ## Usage
 
-To use the Primer theme:
+To use the Tweak Primer theme:
 
 1. Add the following to your site's `_config.yml`:
 
     ```yml
-    remote_theme: pages-themes/primer@v0.2.0
+    remote_theme: pisaucer/tweakprimer@v0.0.1
     plugins:
     - jekyll-remote-theme # add this line to the plugins list if you already have one
     ```
