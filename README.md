@@ -1,10 +1,10 @@
-# The Tweak Primer Theme
+# The Tweak Primer Jekyll Theme
 
 [![.github/workflows/ci.yaml](https://github.com/pages-themes/primer/actions/workflows/ci.yaml/badge.svg)](https://github.com/pages-themes/primer/actions/workflows/ci.yaml) [![Gem Version](https://badge.fury.io/gh/pisaucer%2Ftweakprimer.svg)](https://badge.fury.io/gh/pisaucer%2Ftweakprimer)
 
 *Primer is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](https://pisaucer.github.io/tweakprimer/), or even [use it today](#usage).*
 
-<!-- ![Thumbnail of Primer](thumbnail.png) -->
+![Thumbnail of Primer](thumbnail.png)
 
 ## Usage
 
