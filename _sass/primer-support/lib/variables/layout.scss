@@ -13,7 +13,7 @@
 $spacer: 8px !default;
 $spacers: (
   0,
-  round($spacer / 2),
+  calc($spacer / 2),
   $spacer,
   $spacer * 2,
   $spacer * 3,
