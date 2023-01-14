@@ -8,8 +8,8 @@ gemspec
 group :jekyll_plugins do
     gem "jekyll-pdf-embed"
     gem "jekyll-readme-index"
-    gem "jekyll-titles-from-headings"
     gem "jekyll-sitemap"
+    gem "jekyll-titles-from-headings"
     gem "jekyll-youtube"
-  end
+    end
 gem "webrick", "~> 1.7"
