@@ -1,3 +1,4 @@
+name: ci build
 on:
   push:
   pull_request:
