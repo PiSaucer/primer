@@ -13,5 +13,5 @@ group :jekyll_plugins do
   gem "jekyll-youtube"
 end
 
+gem "faraday-retry"
 gem "webrick", "~> 1.7"
-gem 'faraday-retry'
